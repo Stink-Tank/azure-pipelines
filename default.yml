@@ -1,5 +1,5 @@
 parameters:
-  minrust: 1.60.0 # Rust 2021 with some stablized APIs
+  minrust: 1.64.0 # Rust 2021 recent release
   setup: []
   services: {}
   env: {}
