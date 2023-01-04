@@ -49,7 +49,7 @@ jobs:
            vmImage: ubuntu-20.04
            rust: stable
          MacOS:
-           vmImage: macOS-10.15
+           vmImage: macOS-11
            rust: stable
          Windows:
            vmImage: windows-2019

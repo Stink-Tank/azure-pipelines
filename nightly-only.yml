@@ -45,7 +45,7 @@ jobs:
            vmImage: ubuntu-20.04
            rust: nightly
          MacOS:
-           vmImage: macOS-10.15
+           vmImage: macOS-11
            rust: nightly
          Windows:
            vmImage: windows-2019
