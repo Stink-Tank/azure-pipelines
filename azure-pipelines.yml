@@ -3,7 +3,7 @@ stages:
     jobs:
       - template: default.yml
         parameters:
-          minrust: 1.56.0 # 2021
+          minrust: 1.64.0 # 2021
           codecov_token: $(CODECOV_TOKEN_SECRET)
           env:
             ENV_IS_SET: true
@@ -14,7 +14,7 @@ stages:
     jobs:
       - template: default.yml
         parameters:
-          minrust: 1.56.0 # 2021
+          minrust: 1.64.0 # 2021
           codecov_token: $(CODECOV_TOKEN_SECRET)
           dir: sub
           env:
@@ -28,7 +28,7 @@ stages:
     jobs:
       - template: default.yml
         parameters:
-          minrust: 1.56.0
+          minrust: 1.64.0
           codecov_token: $(DOES_NOT_EXIST)
           env:
             ENV_IS_SET: true
@@ -41,7 +41,7 @@ stages:
     jobs:
       - template: default.yml
         parameters:
-          minrust: 1.56.0
+          minrust: 1.64.0
           cross: false
           env:
             ENV_IS_SET: true
