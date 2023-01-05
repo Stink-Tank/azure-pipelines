@@ -13,8 +13,6 @@ jobs:
      matrix:
        stable:
          rust: stable
-       beta:
-         rust: beta
    pool:
      vmImage: ubuntu-20.04
    continueOnError: $[eq(variables.rust, 'beta')]
